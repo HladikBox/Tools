@@ -1,0 +1,14 @@
+<!--pages/contractload/contractload.wxml-->
+<form bindsubmit="confirm">
+  <view class="padding">
+    <view wx:for="{{fields}}" class="flex-row margin-top">
+      <view class="flex-1">{{item}}</view>
+      <view class="flex-1">
+        <input class="flex-row" name='{{item}}' value="" placeholder="输入对应之"></input>
+      </view>
+    </view>
+    <view class="margin-top">
+      <button type='primary' form-type='submit' >下载</button>
+    </view>
+  </view>
+</form>

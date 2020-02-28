@@ -1,0 +1,14 @@
+<!--pages/contract/contract.wxml-->
+<view class="padding">
+  <view class="h3">第一步，word文件</view>
+  <view class="h5 txt-gray margin-top">请按照下面图片的例子，编辑word文件里面需要替换的地方，然后点击下面你的word文件</view>
+  <view class="margin-top">
+    <image mode='widthFix' src="{{uploadpath}}resource/{{res.contractpaste}}"></image>
+  </view>
+  <view class="margin-top">
+    <button bindtap="downloadtemplate">下载范例模版</button>
+  </view>
+  <view class="margin-top">
+    <button bindtap="upload" type="primary">上传</button>
+  </view>
+</view>
